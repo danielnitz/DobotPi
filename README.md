@@ -51,5 +51,7 @@ _**Note on support:**_ I'm a scientist working on making replacement organs, whi
 
 - [ ] Create a video showing how to set up and run the code from start to finish.
 
+- [ ] Create code flow charts. Improve code comments. Reorganize code. Get rid of old code/update comments.
+
 - [ ] Create some sort of simple executable-like version of the software that can be easily distributed (no code setup).
 
