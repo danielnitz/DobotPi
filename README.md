@@ -41,6 +41,22 @@ _**Note on support:**_ I'm a scientist working on making replacement organs, whi
 
 - [ ] Address case where end point is a valid position, but intervening points aren't
 
+- [ ] Implement acceleration
+
+- [ ] Create an API to enable programming multiple moves from point to point
+
+- [ ] Implement a move to home position button
+
+- [ ] Correct Inverse kinematics floating point problem as identified by Max (open-dobot)
+
+- [ ] Code documentation overview with flow charts
+
+- [ ] Emergency stop
+
+- [ ] Movement speed control / specify time it takes to move from point to point
+
+- [ ] Account for end effector position (currently, all positions are calculated for the very end of the lower arm)
+
 - [ ] Install limit switches on the Dobot and implement the code to control them. Could use a photointerrupter like Max (open-dobot) or some hall effect limit switches that use magnets (or combination). Either is probably better than a manual limit switch. All are only a few dollars each. Will likely need to 3d print some mounts for these.
 
 - [ ] Buy and install NEMA 17 stepper motors that have greater torque (for increased payload ability). Unsure how much these will cost. probably around $20-40 each. The stepper motors that came with the Dobot have nice screws on the back that rotate with the motor and would enable one to mount a rotary encoder on the rear, perhaps needing a 3d printed adapter.
@@ -54,4 +70,8 @@ _**Note on support:**_ I'm a scientist working on making replacement organs, whi
 - [ ] Create code flow charts. Improve code comments. Reorganize code. Get rid of old code/update comments.
 
 - [ ] Create some sort of simple executable-like version of the software that can be easily distributed (no code setup).
+
+- [ ] Detect loss of power to motors somehow
+
+- [ ] Various code optimization
 
