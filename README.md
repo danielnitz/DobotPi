@@ -11,7 +11,7 @@ Code and hardware setup instructions:
 
 _**Note on future maintenance:**_ I will not be developing general purpose dobot features like gripper and laser control, and possibly not even a general purpose way to program movement. Someone else will have to pick up that torch. The only reason I'm programming this software is because I need these basic features for lab robot software that I'm programming. Whatever useful general purpose code comes out of that project, I am putting here; therefore, I don't expect to to update this terribly often, especially after I get the basics implemented. On the flip side, if you are a scientist like me and want to use Dobot as a lab robot, I'll post a link here to the relevant github when I create it. 
 
-Note on support: I'm a scientist working on making replacement organs, which means I have very little free time and I'm making no guarantees of support, espcially timely. That being said, feel free to contact me, but don't be surprised if I respond after days, weeks, or never.
+_**Note on support:**_ I'm a scientist working on making replacement organs, which means I have very little free time and I'm making no guarantees of support, espcially timely. That being said, feel free to contact me, but don't be surprised if I respond after days, weeks, or never.
 
 ##### To Do (my personal hardware and software to do list):
 -----------------------------------------------------
