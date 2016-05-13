@@ -18,13 +18,13 @@ Note on support: I'm a scientist working on making replacement organs, which mea
 
 - [ ] Implement move to angles function (should be super simple to do)
 
--Install limit switches on the Dobot and implement the code to control them. Could use a photointerrupter like Max (open-dobot) or some hall effect limit switches that use magnets (or combination). Either is probably better than a manual limit switch. All are only a few dollars each. Will likely need to 3d print some mounts for these.
+- [ ] Install limit switches on the Dobot and implement the code to control them. Could use a photointerrupter like Max (open-dobot) or some hall effect limit switches that use magnets (or combination). Either is probably better than a manual limit switch. All are only a few dollars each. Will likely need to 3d print some mounts for these.
 
--Buy and install NEMA 17 stepper motors that have greater torque (for increased payload ability). Unsure how much these will cost. probably around $20-40 each. The stepper motors that came with the Dobot have nice screws on the back that rotate with the motor and would enable one to mount a rotary encoder on the rear, perhaps needing a 3d printed adapter.
+- [ ] Buy and install NEMA 17 stepper motors that have greater torque (for increased payload ability). Unsure how much these will cost. probably around $20-40 each. The stepper motors that came with the Dobot have nice screws on the back that rotate with the motor and would enable one to mount a rotary encoder on the rear, perhaps needing a 3d printed adapter.
 
--Buy and install rotary encoders on the stepper motors (to keep track of the actual steps taken and avoid missed steps). These can be used to detect if someone hits the arm for example, and the robot can then account for the missed steps. These will be ~$20-40 each depending on which one you get.
+- [ ] Buy and install rotary encoders on the stepper motors (to keep track of the actual steps taken and avoid missed steps). These can be used to detect if someone hits the arm for example, and the robot can then account for the missed steps. These will be ~$20-40 each depending on which one you get.
 
--Create a video showing how to set up and run the code from start to finish.
+- [ ] Create a video showing how to set up and run the code from start to finish.
 
--Create some sort of simple executable-like version of the software that can be easily distributed (no code setup).
+- [ ] Create some sort of simple executable-like version of the software that can be easily distributed (no code setup).
 
