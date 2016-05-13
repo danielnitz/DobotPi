@@ -13,7 +13,7 @@ Note on future maintenance: I will not be developing general purpose dobot featu
 
 Note on support: I'm a scientist working on making replacement organs, which means I have very little free time and I'm making no guarantees of support, espcially timely. That being said, feel free to contact me, but don't be surprised if I respond after days, weeks, or never.
 
-To Do (my personal hardware and software to do list):
+##### To Do (my personal hardware and software to do list):
 -----------------------------------------------------
 
 -Implement move to angles function (should be super simple to do)
