@@ -8,6 +8,7 @@ This software allows you to control a Dobot robotic arm with a raspberry pi 3. T
 1. GUI
 2. Error checking
 
+![alt text](https://github.com/mikef522/DobotPi/blob/master/Schematics/DobotPi_Stepper_Driver_Wiring_Schematic.PNG "DobotPi Wiring Schematic")
 ###Code and hardware setup instructions:
 __________________________________________
 1. Create the electronic circuit described in the youtube video here (see also the DobotPi Wiring schematic in the "Schematics" folder in this repository): **https://www.youtube.com/watch?v=dwImOfUukV8**
