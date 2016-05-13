@@ -16,7 +16,7 @@ Note on support: I'm a scientist working on making replacement organs, which mea
 ##### To Do (my personal hardware and software to do list):
 -----------------------------------------------------
 
-- [] Implement move to angles function (should be super simple to do)
+- [ ] Implement move to angles function (should be super simple to do)
 
 -Install limit switches on the Dobot and implement the code to control them. Could use a photointerrupter like Max (open-dobot) or some hall effect limit switches that use magnets (or combination). Either is probably better than a manual limit switch. All are only a few dollars each. Will likely need to 3d print some mounts for these.
 
