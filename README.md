@@ -6,9 +6,11 @@ This software allows you to control a Dobot robotic arm with a raspberry pi 3. T
 
 #####Features:
 1. _Graphical User Interface (GUI) to manually control the robot_
-2. Move to cartesian (x,y,z) coordinates
-3. Move in linear lines
-2. Error checking
+2. _Move to cartesian (x,y,z) coordinates_
+3. _Move in smooth linear lines_
+4. _Step the robot by variable distances (in mm) in x, y, and z directions_
+5. _Gives a read out of the current position in terms of x,y,z and angles
+6. _Error checking_
 
 ![alt text](https://github.com/mikef522/DobotPi/blob/master/Schematics/DobotPi_Stepper_Driver_Wiring_Schematic.PNG "DobotPi Wiring Schematic")
 ###Code and hardware setup instructions:
@@ -27,7 +29,9 @@ _**Note on support:**_ I'm a scientist working on making replacement organs, whi
 #####To Do (my personal hardware and software to do list):
 -----------------------------------------------------
 
-- [ ] Implement move to angles function (should be super simple to do)
+- [ ] Implement move to angles function
+- [ ] Address boundary case where arm transitions from left to right side and vice versa
+- [ ] Address case where end point is a valid position, but intervening points aren't
 
 - [ ] Install limit switches on the Dobot and implement the code to control them. Could use a photointerrupter like Max (open-dobot) or some hall effect limit switches that use magnets (or combination). Either is probably better than a manual limit switch. All are only a few dollars each. Will likely need to 3d print some mounts for these.
 
