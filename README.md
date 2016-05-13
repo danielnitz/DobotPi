@@ -16,13 +16,16 @@ This software allows you to control a Dobot robotic arm with a raspberry pi 3. T
 ![alt text](https://github.com/mikef522/DobotPi/blob/master/Schematics/DobotPi_Stepper_Driver_Wiring_Schematic.PNG "DobotPi Wiring Schematic")
 ###Code and hardware setup instructions:
 __________________________________________
-1. Create the electronic circuit described in the youtube video here (see also the DobotPi Wiring schematic in the "Schematics" folder in this repository): **https://www.youtube.com/watch?v=dwImOfUukV8**
+1. Create the simple electronic circuit described in the youtube video here (see also the DobotPi Wiring schematic in the "Schematics" folder in this repository): **https://www.youtube.com/watch?v=dwImOfUukV8**
 
 2. Set up a raspberry pi 3 running raspbian (jessie). This is the default OS.
 
 3. In the raspberry pi terminal, type: "sudo apt-get install python3-pyqt5" and press enter.
+
 4. Download the files in the "Python-Code" folder in this repository. Place them in the same folder on the raspberry pi (name the folder whatever you like and place it wherever you like).
-5. While running raspbian (jessie) on the raspberry pi 3
+
+5. Open the DobotGUIMain.py file using the IDLE 3 editor and select Run > Run Module
+(_alternatively, use the pi's terminal to navigate to the directory you created in step 4 and type "sudo python3 DobotGUIMain.py", and hit enter_)
 
 
 _**Note on future maintenance:**_ I will not be developing general purpose dobot features like gripper and laser control, and possibly not even a general purpose way to program movement. Someone else will have to pick up that torch. The only reason I'm programming this software is because I need these basic features for lab robot software that I'm programming. Whatever useful general purpose code comes out of that project, I am putting here; therefore, I don't expect to to update this terribly often, especially after I get the basics implemented. On the flip side, if you are a scientist like me and want to use Dobot as a lab robot, I'll post a link here to the relevant github when I create it. 
