@@ -10,7 +10,7 @@ This software allows you to control a Dobot robotic arm with a raspberry pi 3. T
 
 ###Code and hardware setup instructions:
 __________________________________________
-1. Create the electronic circuit described in the youtube video here (see also the DobotPi Wiring schematic in the "Schematics" folder in this repository): https://www.youtube.com/watch?v=dwImOfUukV8
+1. Create the electronic circuit described in the youtube video here (see also the DobotPi Wiring schematic in the "Schematics" folder in this repository): **https://www.youtube.com/watch?v=dwImOfUukV8**
 2. Set up a raspberry pi 3 running raspbian (jessie). This is the default OS.
 3. In the raspberry pi terminal, type: "sudo apt-get install python3-pyqt5" and press enter.
 4. Download the files in the "Python-Code" folder in this repository. Place them in the same folder on the raspberry pi (name the folder whatever you like and place it wherever you like).
