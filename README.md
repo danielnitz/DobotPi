@@ -1,7 +1,8 @@
 # DobotPi - Control Dobot on the Raspberry Pi 3
 This software allows you to control a Dobot robotic arm with a raspberry pi 3. There are numerous advantages to controlling the Dobot with a raspberry pi as opposed to an arduino, FPGA, or other electronics that requires movement data to be transmitted serially. The code is simpler and less of it is required. The arm can move faster because time is not spent sending data from device to device. Running the code from the raspberry pi means you don't need a separate computer (from say a microcontroller) to control the Dobot. The raspberry pi is the computer! Installing everything needed to edit the code is dead simple, just type one line in the terminal: "sudo apt-get install python3-pyqt5". This works on the raspberry pi 3, but won't work on older versions without more setup (according to a friend, I haven't tested this). The pi 3 (running the raspbian OS at least) comes with the necessary files installed and has sufficient RAM.
 
-Code and hardware setup instructions:
+###Code and hardware setup instructions:
+__________________________________________
 1. Create the electronic circuit described in the youtube video here (see also the DobotPi Wiring schematic in the "Schematics" folder in this repository):
 2. Set up a raspberry pi 3 running raspbian (jessie). This is the default OS.
 3. In the raspberry pi terminal, type: "sudo apt-get install python3-pyqt5" and press enter.
