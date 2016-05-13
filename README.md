@@ -11,6 +11,7 @@ This software allows you to control a Dobot robotic arm with a raspberry pi 3. T
 4. _Step the robot by variable distances (in mm) in x, y, and z directions_
 5. _Gives a read out of the current position in terms of x,y,z and angles
 6. _Error checking_
+7. _Code is written in python and uses the cross platform Qt library for the graphics_
 
 ![alt text](https://github.com/mikef522/DobotPi/blob/master/Schematics/DobotPi_Stepper_Driver_Wiring_Schematic.PNG "DobotPi Wiring Schematic")
 ###Code and hardware setup instructions:
