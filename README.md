@@ -1,4 +1,4 @@
-# DobotPi - Control a Dobot robotic arm with a raspberry pi 3
+# DobotPi - Control Dobot on the Raspberry Pi 3
 This software allows you to control a Dobot robotic arm with a raspberry pi 3. There are numerous advantages to controlling the Dobot with a raspberry pi as opposed to an arduino, FPGA, or other electronics that requires movement data to be transmitted serially
 
 To Do (Hardware and software to do list, my personal opinions):
