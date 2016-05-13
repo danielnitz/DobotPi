@@ -25,7 +25,7 @@ __________________________________________
 
 4. Download the files in the "Python-Code" folder in this repository. Place them in the same folder on the raspberry pi (name the folder whatever you like and place it wherever you like).
 
-5. Open the DobotGUIMain.py file using the IDLE 3 editor and select Run > Run Module (_alternatively, use the pi's terminal to navigate to the directory you created in step 4 and type "sudo python3 DobotGUIMain.py", and hit enter_)
+5. Open the DobotPiGUIMain.py file using the IDLE 3 editor and select Run > Run Module (_alternatively, use the pi's terminal to navigate to the directory you created in step 4 and type "sudo python3 DobotPiGUIMain.py", and hit enter_)
 
 
 _**Note on future maintenance:**_ I will not be developing general purpose dobot features like gripper and laser control, and possibly not even a general purpose way to program movement. Someone else will have to pick up that torch. The only reason I'm programming this software is because I need these basic features for lab robot software that I'm programming. Whatever useful general purpose code comes out of that project, I am putting here; therefore, I don't expect to to update this terribly often, especially after I get the basics implemented. On the flip side, if you are a scientist like me and want to use Dobot as a lab robot, I'll post a link here to the relevant github when I create it. 
