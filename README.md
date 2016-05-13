@@ -9,7 +9,7 @@ This software allows you to control a Dobot robotic arm with a raspberry pi 3. T
 2. _Move to cartesian (x,y,z) coordinates_
 3. _Move in smooth linear lines_
 4. _Step the robot by variable distances (in mm) in x, y, and z directions_
-5. _Gives a read out of the current position in terms of x,y,z and angles
+5. _Gives a read out of the current position in terms of x,y,z and angles_
 6. _Error checking_
 7. _Code is written in python and uses the cross platform Qt library for the graphics_
 
